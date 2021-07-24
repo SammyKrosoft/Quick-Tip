@@ -7,9 +7,7 @@ Special thanks to [François-Xavier Cat ](), the original article with this info
 ```powershell
 $StringWithAccents = "J'ai préparé mon sapin de Noël avec Gwénaëlle"
 
-$StringWithoutAccents = [Text.Encoding]::ASCII.GetString([Text.Encoding]::GetEncoding("Cyrillic").GetBytes($StringWithAccents))
-
-$StringWithoutAccents
+[Text.Encoding]::ASCII.GetString([Text.Encoding]::GetEncoding("Cyrillic").GetBytes($StringWithAccents))
 
 ```
 
