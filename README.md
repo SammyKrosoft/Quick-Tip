@@ -1,4 +1,4 @@
-# Quick-Tip
+# Quick-Tip-PowerShell-Remove-Accents-From-String
 
 Powershell line to remove accents (known as Diacritics) from a string
 
